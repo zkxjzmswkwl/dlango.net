@@ -1,0 +1,7 @@
+dempl Songs(models.Song[] songs) {
+    <div class="flex flex-col space-y-2">
+        foreach (song; songs) {
+            <div>{ song.title } by { song.artist }</div>
+        }
+    </div>
+}

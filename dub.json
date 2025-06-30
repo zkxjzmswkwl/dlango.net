@@ -1,0 +1,19 @@
+
+{
+	"name": "dlango-net",
+	"description": "The Dlango.net website",
+	"authors": [],
+	"copyright": "Copyright © 2025 Carter",
+	"license": "fuckit dont care",
+	"dependencies": {
+		"dlango": {"path": "C:/Users/dev/code/dlango"},
+		"d2sqlite3": {
+			"repository": "git+https://github.com/zkxjzmswkwl/d2sqlite3.git",
+			"version": "~v1.0.1"
+		},
+		"asdf": "~>0.7.17"
+	},
+    "sourcePaths": ["source"],
+    "importPaths": ["source"]
+}
+
