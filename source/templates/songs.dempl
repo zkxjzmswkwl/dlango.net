@@ -1,7 +1,10 @@
-dempl Songs(models.Song[] songs) {
-    <div class="flex flex-col space-y-2">
-        foreach (song; songs) {
-            <div>{ song.title } by { song.artist }</div>
-        }
+dempl Songs(models.Song[] songs, string code) {
+    <div class="container mx-auto">
+        <div class="flex flex-col space-y-2">
+            foreach (song; songs) {
+                <div>{ song.title } by { song.artist }</div>
+            }
+        </div>
+        @Code(code)
     </div>
 }
